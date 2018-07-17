@@ -7,4 +7,7 @@ class MyApp < Sinatra::Base
     erb :index
   end
 
+  get '/KarliesKubs' do
+    erb :karlieskubs
+  end 
 end
